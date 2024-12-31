@@ -19,7 +19,7 @@ const Calculator = () => {
         setResult(Number(firstValue) * Number(secondValue));
         break;
       case "/":
-        setResult(Number(firstValue) + Number(secondValue));
+        setResult(Number(firstValue) / Number(secondValue));
         break;
       default:
         setResult("Invalid operation");
